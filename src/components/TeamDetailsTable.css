@@ -1,0 +1,51 @@
+.heading {
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+}
+
+.team-details-table-container {
+  margin: 20px;
+  overflow-x: auto;
+}
+
+.team-details-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.team-details-table th,
+.team-details-table td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+.team-details-table th {
+  background-color: #f2f2f2; 
+}
+
+.team-details-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.team-details-table button {
+  margin-right: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .team-details-table-container {
+    overflow-x: auto;
+  }
+  .team-details-table th,
+  .team-details-table td {
+    white-space: nowrap;
+    min-width: 100px;
+  }
+  .heading {
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 1;
+  }
+}
