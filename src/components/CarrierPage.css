@@ -1,0 +1,76 @@
+.card-container {
+    background-color: white;
+    /* border-radius: 10px; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px; */
+    width: 100%; /* Adjusted width to 100% */
+    max-width: 1200px; /* Added max-width for responsiveness */
+    margin: auto;
+  }
+  
+  .card-content {
+    color: white;
+    width: 100%; /* Adjusted width to 100% */
+    max-width: 1200px; /* Added max-width for responsiveness */
+    display: flex;
+    justify-content: space-between; /* Adjusted gap for responsiveness */
+    background-image: linear-gradient(to bottom, rgba(244, 62, 29, 1), rgba(56, 56, 56, 1));
+    margin-bottom: 10px;
+    text-align: left;
+    border-radius: 20px;
+    padding: 20px;
+  }
+  
+  .card-left {
+    padding: 50px; /* Adjusted padding for responsiveness */
+  }
+  
+  .card-content h2 {
+    color: white;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: 2.5rem; /* Adjusted font size for responsiveness */
+    font-weight: 600;
+  }
+  
+  .card-content p {
+    color: white;
+    max-width: 550px; /* Adjusted max-width for responsiveness */
+    font-size: 1.5rem; /* Adjusted font size for responsiveness */
+  }
+  
+  .card-content button {
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 15px 30px; /* Adjusted padding for responsiveness */
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .animated-image {
+    display: flex;
+    justify-content: center;
+    width: 500px;    
+    height: 350px; 
+    animation: slide-in 1s ease-in-out infinite;
+    border-radius: 10px;
+  }
+
+  .blogs-heading {
+    height: 150px;
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    align-items: center;    
+    margin-bottom: 40px;
+  }
+
+  .line {
+    flex: 1;
+    /* margin: 0 20px;  */
+    border: none;
+    border-top: 5px solid rgb(83, 83, 83); 
+  }

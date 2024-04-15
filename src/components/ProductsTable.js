@@ -5,7 +5,7 @@ const ProductTable = () => {
   const products = [
     {
       productName: 'Android Development Starter Kit',
-      price: '$ 99',
+      price: '$99',
       description: 'A comprehensive toolkit for Android app development',
       category: 'Mobile Development',
       age: 'Beginner',

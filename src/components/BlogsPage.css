@@ -7,9 +7,12 @@
     height: 150px;
     background-color: rgb(244, 244, 244);
     display: flex;
-    align-items: center;    
+    align-items: center;
+    margin: 0 auto; /* Center horizontally */
     margin-bottom: 40px;
+    width: 83.33%;
   }
+  
   
   .heading{
     background-color: white;
