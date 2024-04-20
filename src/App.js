@@ -7,6 +7,7 @@ import ServicesTable from './components/ServicesTable';
 import CarrierPage from './components/CarrierPage';
 import ProductDetails from './components/ProductDetails';
 import ProductDetailsPage from './components/ProductDetailsPage';
+import ProductsPage from './components/Products';
 
 function App() {
   return (
@@ -16,8 +17,9 @@ function App() {
       {/* <TeamDetailsTable />  */}
       {/* <ServicesTable /> */}
       {/* <CarrierPage /> */}
-      <ProductDetails />
+      {/* <ProductDetails /> */}
       {/* <ProductDetailsPage /> */}
+      <ProductsPage />
     </div>
   );
 }
