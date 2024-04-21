@@ -1,48 +1,48 @@
-.product-details-container {
+.productDetailsContainer {
     display: flex;
     width: 83.33%;
     margin: auto;
   }
   
-  .left-side {
+  .leftSide {
     width: 50%; 
     text-align: left;
     padding: 20px 50px;
   }
   
-  .left-side h2 {
+  .leftSide h2 {
     font-size: 24px;
     margin-bottom: 10px;
   }
 
-  .left-side p {
+  .leftSide p {
     width: 200%;
     margin: 0;
     margin-bottom: 10px;
   }
-  .right-side {
+  .rightSide {
     width: 50%;
     text-align: left;
     background-color: #f0f0f0;
     padding: 20px 20px;
   }
   
-  .right-side h2 {
+  .rightSide h2 {
     font-size: 24px;
     margin-bottom: 10px;
   }
   
   @media (max-width: 768px) {
-    .product-details-container {
+    .productDetailsContainer {
       flex-direction: column; 
     }
     
-    .left-side{
+    .leftSide{
         padding: 10px;
         width: 45%;
     }
 
-    .right-side {
+    .rightSide {
 
       width: 100%; /* Take up full width on smaller screens */
     }

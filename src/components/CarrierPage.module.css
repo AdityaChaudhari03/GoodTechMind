@@ -1,4 +1,4 @@
-.card-container {
+.cardContainer {
     background-color: white;
     /* border-radius: 10px; */
     /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
@@ -10,7 +10,7 @@
     margin: auto;
   }
   
-  .card-content {
+  .cardContent {
     color: white;
     width: 100%; /* Adjusted width to 100% */
     max-width: 1200px; /* Added max-width for responsiveness */
@@ -23,11 +23,11 @@
     padding: 20px;
   }
   
-  .card-left {
+  .cardLeft {
     padding: 50px; /* Adjusted padding for responsiveness */
   }
   
-  .card-content h2 {
+  .cardContent h2 {
     color: white;
     margin-bottom: 10px;
     text-align: left;
@@ -35,13 +35,13 @@
     font-weight: 600;
   }
   
-  .card-content p {
+  .cardContent p {
     color: white;
     max-width: 550px; /* Adjusted max-width for responsiveness */
     font-size: 1.5rem; /* Adjusted font size for responsiveness */
   }
   
-  .card-content button {
+  .cardContent button {
     background-color: orangered;
     color: white;
     border: none;
@@ -51,7 +51,7 @@
     font-size: 18px;
   }
   
-  .animated-image {
+  .animatedImage {
     display: flex;
     justify-content: center;
     width: 500px;    
@@ -60,7 +60,7 @@
     border-radius: 10px;
   }
 
-  .blogs-heading {
+  .blogsHeading {
     height: 150px;
     background-color: rgb(244, 244, 244);
     display: flex;

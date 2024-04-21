@@ -1,4 +1,4 @@
-.customer-review-container {
+.customerReviewContainer {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
@@ -10,7 +10,7 @@
     color: #333;
   }
   
-  .review-card {
+  .reviewCard {
     border: 1px solid #e0e0e0;
     border-radius: 10px;
     padding: 20px;
@@ -20,25 +20,25 @@
     text-align: left;
   }
   
-  .review-header {
+  .reviewHeader {
     display: flex;
     align-items: center;
     margin-bottom: 10px;
   }
   
-  .reviewer-info h2 {
+  .reviewerInfo h2 {
     margin: 0;
     color: #333;
   }
   
-  .review-text {
+  .reviewText {
     font-size: 16px;
     line-height: 1.5;
     color: #666;
   }
   
   @media (max-width: 600px) {
-    .review-card {
+    .reviewCard {
       padding: 15px;
     }
     

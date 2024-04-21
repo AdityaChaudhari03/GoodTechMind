@@ -1,70 +1,71 @@
 import React from "react";
-import "./BlogsPage.css";
+// import "./BlogsPage.css";
+import styles from "./BlogsPage.module.css";
 import Img1 from "../Images/img1.jpg";
 import Img2 from "../Images/img2.jpg";
 import Img3 from "../Images/img3.jpg";
 
 const BlogsPage = () => {
   return (
-    <div className="blogs-container">
-      <div className="blogs-heading">
-        <hr className="line" />
-        <h1 className="heading">Blogs</h1>
-        <hr className="line" />
+    <div className={styles.blogsContainer}>
+      <div className={styles.blogsHeading}>
+        <hr className={styles.line} />
+        <h1 className={styles.heading}>Blogs</h1>
+        <hr className={styles.line} />
       </div>
-      <div className="recent-articles">
-        <div className="text">
-          <h4 className="recent-article-text">Recent Articles</h4>
-          <h2 className="read-news-heading">Read All News</h2>
+      <div className={styles.recentArticles}>
+        <div className={styles.text}>
+          <h4 className={styles.recentArticleText}>Recent Articles</h4>
+          <h2 className={styles.readNewsHeading}>Read All News</h2>
         </div>
-        <div className="loremtext"> 
-          <p className="recent-articles-para">
+        <div className={styles.loremtext}> 
+          <p className={styles.recentArticlesPara}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet sit,
             voluptates quas et dolorem quasi doloremque est consequatur
             consequuntur accusamus?
           </p>
         </div>
       </div>
-      <div className="blog-cards">
-        <div className="blog-card">
-          <div className="blogImage">
+      <div className={styles.blogCards }>
+        <div className={styles.blogCard}>
+          <div className={styles.blogImage}>
             <img src={Img1} alt="Blog" />
-            <p className="imagetext">Design Code</p>
+            <p className={styles.imagetext}>Design Code</p>
           </div>
-          <div className="blog-info">
-            <p className="blog-description">
+          <div className={styles.blogInfo}>
+            <p className={styles.blogDescription }>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
               laudantium dolorum veniam aliquid, error aperiam?
             </p>
-            <p className="blog-date">06 May 2022</p>
+            <p className={styles.blogDate}>06 May 2022</p>
             <button>READ MORE</button>
           </div>
         </div>
-        <div className="blog-card">
-          <div className="blogImage">
+        <div className={styles.blogCard}>
+          <div className={styles.blogImage}>
             <img src={Img2} alt="Blog" />
-            <p className="imagetext">Design Code</p>
+            <p className={styles.imagetext}>Design Code</p>
           </div>
-          <div className="blog-info">
-            <p className="blog-description">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque
-              exercitationem iusto culpa molestiae voluptate necessitatibus.
+          <div className={styles.blogInfo}>
+            <p className={styles.blogDescription }>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              laudantium dolorum veniam aliquid, error aperiam?
             </p>
-            <p className="blog-date">06 May 2022</p>
+            <p className={styles.blogDate}>06 May 2022</p>
             <button>READ MORE</button>
           </div>
         </div>
-        <div className="blog-card">
-          <div className="blogImage">
+        <div className={styles.blogCard}>
+          <div className={styles.blogImage}>
             <img src={Img3} alt="Blog" />
-            <p className="imagetext">Design, Code</p>
+            <p className={styles.imagetext}>Design Code</p>
           </div>
-          <div className="blog-info">
-            <p className="blog-description">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, et
-              dolor. Numquam consectetur quis beatae!
+          <div className={styles.blogInfo}>
+            <p className={styles.blogDescription }>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem
+              laudantium dolorum veniam aliquid, error aperiam?
             </p>
-            <p className="blog-date">06 May 2022</p>
+            <p className={styles.blogDate}>06 May 2022</p>
             <button>READ MORE</button>
           </div>
         </div>

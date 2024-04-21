@@ -1,42 +1,42 @@
 import React from 'react';
 import Img4 from "../Images/img4.png"
-import './ProductDetails.css';
+import styles from "./ProductDetails.module.css";
 import ProductDetailsPage from './ProductDetailsPage';
 import CustomerReviewPage from './CustomerReview';
 
 const ProductDetails = () => {
   return (
     <div>
-      <div className="product-details-container">
-      <div className="product-image">
+      <div className={styles.productDetailsContainer}>
+      <div className={styles.productImage}>
         <img src={Img4} alt="Product" width={220} height={440}/>
-        <div className='buy-buttons'>
-            <button className='add-to-cart-button'>ADD TO CART</button>
-            <button className='buy-now-button'>⚡BUY NOW</button>
+        <div className={styles.buyButtons}>
+            <button className={styles.addToCartButton}>ADD TO CART</button>
+            <button className={styles.buyNowButton}>⚡BUY NOW</button>
         </div>
       </div>
-      <div className="product-info">
-        <h2 className="product-title">Win Go Betting Web Game</h2>
-        <div className="product-rating">
-          <div className="rating-box">
-            <span className="rating">4.5 ⭐</span>
-            <span className='rating-and-review'>1,32 Ratings & 197 Review</span>  
+      <div className={styles.productInfo}>
+        <h2 className={styles.productTitle}>Win Go Betting Web Game</h2>
+        <div className={styles.productRating}>
+          <div className={styles.ratingBox}>
+            <span className={styles.rating}>4.5 ⭐</span>
+            <span className={styles.ratingAndReview}>1,32 Ratings & 197 Review</span>  
           </div>
         </div>
-        <div className="product-price">
-            <span className='new-price'>₹1,29,999</span>
-            <span className='old-price'>₹1,29,999</span>
-            <span className='discount'>3% off</span>
+        <div className={styles.productPrice}>
+            <span className={styles.newPrice}>₹1,29,999</span>
+            <span className={styles.oldPrice}>₹1,29,999</span>
+            <span className={styles.discount}>3% off</span>
         </div>
-        <div className="available-offers">
+        <div className={styles.availableOffers}>
           <h3>Available Offers</h3>
           <ul>
-            <li><strong className='bank-offer'>🏷️ Bank Offer</strong> 10% Upto ₹2500 on Axis Bank Signature credit card <span className='terms'>T & C</span></li>
-            <li><strong className='bank-offer'>🏷️ Bank Offer</strong> 10% Upto ₹5000 on Axis Bank Infinite credit card <span className='terms'>T & C</span></li>
+            <li><strong className={styles.bankOffer}>🏷️ Bank Offer</strong> 10% Upto ₹2500 on Axis Bank Signature credit card <span className='terms'>T & C</span></li>
+            <li><strong className={styles.bankOffer}>🏷️ Bank Offer</strong> 10% Upto ₹5000 on Axis Bank Infinite credit card <span className='terms'>T & C</span></li>
           </ul>
         </div>
-        <div className='more-offers'>
-            <h3 className='more-offers-heading'>View 7 more offers</h3>
+        <div className={styles.moreOffers}>
+            <h3 className={styles.moreOffersHeading}>View 7 more offers</h3>
             <ul>
                 <li>3 Month Ongoing Support</li>
                 <li>3 Month Ongoing Support</li>

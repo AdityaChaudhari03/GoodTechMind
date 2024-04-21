@@ -1,4 +1,4 @@
-.product-details-container {
+.productDetailsContainer {
     display: flex;
     justify-content: space-between;
     gap: 350px;
@@ -8,17 +8,17 @@
     overflow: hidden;
   }
   
-  .product-image {
+  .productImage {
     flex: 1;
     padding: 20px;
   }
   
-  .product-image img {
+  .productImage img {
     margin-left: 200px;
     border-radius: 5px;
   }
   
-  .product-info {
+  .productInfo {
     flex: 1;
     padding: 20px;
     display: flex;
@@ -26,17 +26,17 @@
     text-align: left;
   }
   
-  .product-title {
+  .productTitle {
     font-size: 24px;
     margin-bottom: 10px;
     color: #333;
   }
   
-  .product-rating {
+  .productRating {
     margin-bottom: 10px;
   }
   
-  .rating-box {
+  .ratingBox {
     margin-top: 20px;
     display: flex;
     display: inline-block;
@@ -51,7 +51,7 @@
     margin-right: 5px;
   }
   
-  .bank-offer{
+  .bankOffer{
     color: black;
 }
 
@@ -59,56 +59,56 @@
     color: rgba(40, 116, 240, 1);
 }
 
-  .product-price {
+  .productPrice {
     font-size: 20px;
     /* margin-bottom: 10px; */
     color: #333;
   }
   
-  .available-offers {
+  .availableOffers {
     margin-top: 5px;
   }
   
-  .available-offers h3 {
+  .availableOffers h3 {
     font-size: 18px;
     margin-bottom: 10px;
     color: #333;
   }
   
-  .available-offers ul {
+  .availableOffers ul {
     list-style-type: none;
     padding: 0;
   }
   
-  .available-offers li {
+  .availableOffers li {
     font-size: 16px;
     margin-bottom: 5px;
     color: #666;
   }
 
-  .more-offers ul {
+  .moreOffers ul {
     list-style-type: none;
     padding: 0;
   }
   
-  .more-offers li {
+  .moreOffers li {
     font-size: 16px;
     margin-bottom: 5px;
     color: #666;
   }
 
-  .rating-and-review{
+  .ratingAndReview{
     color: #666;
 }
 
-  .more-offers-heading{
+  .moreOffersHeading{
     color: orangered;
 }
 
-  .new-price{
+  .newPrice{
     font-size: larger;
 }
-  .old-price{
+  .oldPrice{
         text-decoration: line-through;
         margin-left: 10px;
         font-size: medium;
@@ -121,7 +121,7 @@
         font-weight: 700;
     }
 
-    .buy-buttons{
+    .buyButtons{
         margin-top: 20px;
         margin-left: 120px;
         display: flex;
@@ -129,7 +129,7 @@
         width: 500px;
     }
 
-    .add-to-cart-button {
+    .addToCartButton {
         border: 2px solid orangered; 
         background-color: white;
         color: orangered; 
@@ -141,13 +141,13 @@
         transition: all 0.3s ease; 
       }
       
-      .add-to-cart-button:hover {
+      .addToCartButton:hover {
         background-color: orangered;
         color: white; 
       }
       
 
-    .buy-now-button{
+    .buyNowButton{
         background-color: black;
         color: white;
         font-weight: 800;
@@ -156,17 +156,17 @@
     }
 
     @media only screen and (max-width: 768px) {
-      .product-details-container {
+      .productDetailsContainer {
         overflow: hidden;
         flex-direction: column; 
         gap: 20px; 
       }
     
-      .product-image img {
+      .productImage img {
         margin-left: 0; 
       }
     
-      .buy-buttons {
+      .buyButtons {
         margin-top: 20px;
         margin-left: auto;
         margin-right: auto;
@@ -175,12 +175,12 @@
         gap: 10px; 
       }
 
-      .add-to-cart-button{
+      .addToCartButton{
         width: fit-content;
         /* padding: 4px 5px; */
       }
 
-      .buy-now-button{
+      .buyNowButton{
         width: fit-content;
         /* padding: 4px 5px; */
       }

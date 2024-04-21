@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./CarrierPage.css";
+import styles from "./CarrierPage.module.css";
 import Img1 from "../Images/img1.jpg";
 import Img2 from "../Images/img2.jpg";
 import Img3 from "../Images/img3.jpg";
@@ -12,20 +12,20 @@ const CarrierPage = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prevImage) => (prevImage + 1) % images.length);
-    }, 2000); // Change the duration (in milliseconds) for each slide
+    }, 2000); 
     return () => clearInterval(interval);
   }, []);
 
   return (
     <div>
-      <div className="blogs-heading">
-        <hr className="line" />
-        <h1 className="heading">Carrier</h1>
-        <hr className="line" />
+      <div className={styles.blogsHeading}>
+        <hr className={styles.line} />
+        <h1 className={styles.heading}>Carrier</h1>
+        <hr className={styles.line} />
       </div>
-      <div className="card-container">
-        <div className="card-content">
-          <div className="card-left">
+      <div className={styles.cardContainer}>
+        <div className={styles.cardContent}>
+          <div className={styles.cardLeft}>
             <h2>Carrier at Good Tech Mind</h2>
             <p>We invite you to supercharge your potential. Find what inspires and drives you. Find your spark.</p>
             <button>Visit our Career Page →</button>
@@ -34,7 +34,7 @@ const CarrierPage = () => {
             <img
               src={images[currentImage]}
               alt="Animated content"
-              className="animated-image"
+              className={styles.animatedImage}
             />
           </div>
         </div>

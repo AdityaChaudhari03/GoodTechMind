@@ -19,7 +19,7 @@ function App() {
       {/* <CarrierPage /> */}
       {/* <ProductDetails /> */}
       {/* <ProductDetailsPage /> */}
-      <ProductsPage />
+      {/* <ProductsPage /> */}
     </div>
   );
 }
