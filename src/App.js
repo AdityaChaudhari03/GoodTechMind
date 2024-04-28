@@ -8,6 +8,7 @@ import CarrierPage from './components/CarrierPage';
 import ProductDetails from './components/ProductDetails';
 import ProductDetailsPage from './components/ProductDetailsPage';
 import ProductsPage from './components/Products';
+import TeamPage from './components/TeamPage';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
       {/* <ProductDetails /> */}
       {/* <ProductDetailsPage /> */}
       {/* <ProductsPage /> */}
+
+      <TeamPage />
     </div>
   );
 }

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+.meetTeamText {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    color: rgb(54, 61, 68);
+}
+
+.teamText {
+    font-family: 'Lato', sans-serif;
+}
+
+.teamContainer {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.teamMember {
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+    position: relative; 
+}
+
+.teamMember img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; 
+}
+
+.teamMember img:hover {
+    transform: scale(1.05); 
+}
+
+.teamMember h3 {
+    font-family: 'Lato', sans-serif;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.teamMember p {
+    font-size: 18px;
+    color: rgb(255, 68, 0);
+}
